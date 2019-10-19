@@ -46,7 +46,18 @@
               button_class = "submit-button"}}
         </section>
         {{/if}}
-
+        
+        <section class="post-full-comments">
+            <script src="https://utteranc.es/client.js"
+            repo="LaBlazer/lblzr-blog-comments"
+            issue-term="pathname"
+            label="comment-thread"
+            theme="github-dark"
+            crossorigin="anonymous"
+            async>
+            </script>
+        </section>
+        
         <footer class="post-footer">
 
             {{#if primary_author}}
