@@ -1,0 +1,9 @@
+{
+    "easysass.targetDir": "assets/css/",
+    "easysass.formats": [
+        {
+            "format": "compressed",
+            "extension": ".css"
+        }
+    ]
+}
